@@ -1,0 +1,6 @@
+data/io.github.andrepg.hostname.desktop.in
+data/io.github.andrepg.hostname.appdata.xml.in
+data/io.github.andrepg.hostname.gschema.xml
+src/main.py
+src/window.py
+src/window.ui
