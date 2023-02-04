@@ -2,6 +2,13 @@ from re import split
 
 
 class Hostname:
+    """
+    The Hostname class abstracts each line of /etc/hosts file,
+    mapping a single IP address to an array of strings, representing
+    hostnames accessible by network requests and mapped to these IP addresses
+    """
+
+    # TODO - need help - some IP check could be included to validate line's start
     def __init__(self, current_line):
         current_line_array = split(' ', current_line)
 

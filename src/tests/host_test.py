@@ -1,7 +1,5 @@
 import unittest
 
-from fontTools.merge.util import current_time
-
 from host import Hostname
 
 
@@ -40,6 +38,5 @@ class TestHostObject(unittest.TestCase):
         host = Hostname(current_line=test_line)
         self.assertEqual(host.is_commented, False)
 
-
-if __name__ == '__main__':
-    unittest.main()
+    if __name__ == '__main__':
+        unittest.main()
